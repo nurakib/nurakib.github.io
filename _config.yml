@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Md Nayem Uddin / nurakib"
 title_separator          : "-"
 name                     : &name "Md Nayem Uddin"
-description              : &description "I'm just another philanthropist, having a cosmic journey to make a significant impact on the human race."
+description              : &description "Just Another Philanthropist!"
 url                      : https://nurakib.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nurakib/nurakib.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &noodles_junkie
+  username               : &nurakiib
 facebook:
   username               :
   app_id                 :
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Md Nayem Uddin"
   avatar           : "profile.jpg"
-  bio              : "I'm just another philanthropist"
+  bio              : "Just Another Philanthropist"
   location         : "Dhaka, Bangladesh"
   employer         :
   pubmed           : 
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/nurakib"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "noodles_junkie"
+  twitter          : "nurakiib"
   vine             :
   weibo            :
   xing             :
