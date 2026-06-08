@@ -16,8 +16,8 @@ twitter:        https://x.com/nayemu11
 cv_link:        /assets/files/curriculum_vitae.pdf
 
 # ─── Build ──────────────────────────────────────────────────────
-# When deploying, set url to https://nurakib.github.io
-url:        "https://nurakib.github.io"
+# Custom domain
+url:        "https://nayemu.com"
 baseurl:    ""
 markdown:   kramdown
 permalink:  /writing/:title/
