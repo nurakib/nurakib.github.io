@@ -1,0 +1,52 @@
+# Work experience, newest first. Logos live in assets/img/logos/.
+#   company, role, location, dates, url, logo, points (list of what you did)
+
+- company: Microsoft
+  role: Applied Scientist Intern
+  location: Redmond, WA
+  dates: May 2026 – Present
+  url: https://www.microsoft.com/
+  logo: /assets/img/logos/microsoft.png
+  points:
+    - Building LLM agents for large-scale system monitoring and automated root-cause analysis across distributed services.
+
+- company: Cohere
+  role: Intern of the Technical Staff
+  location: San Francisco, CA
+  dates: Jan 2026 – Apr 2026
+  url: https://cohere.com/
+  logo: /assets/img/logos/cohere.png
+  points:
+    - Implemented continuous learning and performance evaluation for workplace automation agents.
+    - Designed long-term memory systems that let tool-calling agents learn from prior experience.
+
+- company: Genies
+  role: Research Scientist Intern
+  location: San Mateo, CA
+  dates: Jun 2025 – Dec 2025
+  url: https://genies.com/
+  logo: /assets/img/logos/genies.jpg
+  points:
+    - Built a systematic evaluation framework for LLM-based memory modules (work accepted to ACL 2026).
+    - Developed a long-term memory management pipeline for AI agents and user personalization.
+
+- company: Center for Strategic Communication, ASU
+  role: Graduate Research Assistant
+  location: Tempe, AZ
+  dates: Aug 2022 – Jun 2025
+  url: https://csc.asu.edu/
+  logo: /assets/img/logos/asu.png
+  points:
+    - Built a question-answering system to extract event arguments from news articles, with a focus on weak supervision.
+    - Led the research behind papers at LREC-COLING 2024, NAACL 2024, NAACL 2025, and ACL 2025.
+
+- company: Nascenia
+  role: Machine Learning Software Engineer
+  location: Dhaka, Bangladesh
+  dates: Jan 2020 – Jun 2022
+  url: https://nascenia.com/
+  logo: /assets/img/logos/nascenia.png
+  points:
+    - Built five conversational agents (the National Digital Service Assistant) for government stakeholders.
+    - Set up a data-acquisition web app for end-to-end model training in PyTorch.
+    - Created five domain-specific intent-understanding datasets for Bangla.

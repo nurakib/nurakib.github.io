@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <p class="stardust">just another compilation of star dust</p>
+    <p class="foot-row">
+      <a href="mailto:{{ site.email }}">Email</a> ·
+      {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Scholar</a> · {% endif %}
+      {% if site.github_link %}<a href="{{ site.github_link }}">GitHub</a> · {% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a> · {% endif %}
+      © {{ site.title }}
+    </p>
+  </div>
+</footer>

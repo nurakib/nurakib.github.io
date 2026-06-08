@@ -1,0 +1,68 @@
+main:
+
+  - title: "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents"
+    authors: <strong>Md Nayem Uddin</strong>, Kumar Shubham, Eduardo Blanco, Chitta Baral, Gengyu Wang
+    conference_short: ACL
+    conference: Findings of the Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2604.20006
+
+  - title: "GuidedSampling: Steering LLMs Towards Diverse Candidate Solutions at Inference-Time"
+    authors: Divij Handa, Mihir Parmar, Aswin RRV, <strong>Md Nayem Uddin</strong>, Hamid Palangi, Chitta Baral
+    conference_short: ICLR
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2510.03777
+
+  - title: "UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs' Memorization"
+    authors: <strong>Md Nayem Uddin</strong>, Amir Saeidi, Divij Handa, Agastya Seth, Tran Cao Son, Eduardo Blanco, Steven Corman, Chitta Baral
+    conference_short: ACL
+    conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2407.03525
+    code: https://github.com/nurakib/UnSeenTimeQA
+
+  - title: "BEMEAE: Moving Beyond Exact Span Match for Event Argument Extraction"
+    authors: Enfa Rose George, <strong>Md Nayem Uddin</strong>, Oghenevovwe Ikumariegbe, Daniyal Kashif, Eduardo Blanco, Steven Corman
+    conference_short: NAACL
+    conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
+    pdf: https://aclanthology.org/2025.naacl-long.295/
+
+  - title: "ThinkTuning: Instilling Cognitive Reflections without Distillation"
+    authors: Aswin RRV, Jacob Dineen, Divij Handa, <strong>Md Nayem Uddin</strong>, Mihir Parmar, Chitta Baral, Ben Zhou
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2508.07616
+
+  - title: 'When "Competency" in Reasoning Opens the Door to Vulnerability: Jailbreaking LLMs via Novel Ciphers'
+    authors: Divij Handa, Zehua Zhang, Amir Saeidi, Shrinidhi Kumbhar, <strong>Md Nayem Uddin</strong>, Aswin RRV, Chitta Baral
+    conference_short: NeurIPS-W
+    conference: NeurIPS 2025 Workshop on Reliable ML from Unreliable Data.
+    pdf: https://arxiv.org/abs/2402.10601
+
+  - title: "Insights into Alignment: Evaluating DPO and its Variants Across Multiple Tasks"
+    authors: Amir Saeidi, Shivanshu Verma, <strong>Md Nayem Uddin</strong>, Chitta Baral
+    conference_short: ACL-SRW
+    conference: ACL Student Research Workshop <strong>(ACL SRW)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2404.14723
+
+  - title: "Chaos with Keywords: Exposing Large Language Models Sycophancy to Misleading Keywords and Evaluating Defense Strategies"
+    authors: Aswin RRV*, Nemika Tyagi*, <strong>Md Nayem Uddin*</strong>, Neeraj Varshney, Chitta Baral (*equal contribution)
+    conference_short: ACL-F
+    conference: Findings of the Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2406.03827
+
+  - title: "Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction"
+    authors: <strong>Md Nayem Uddin</strong>, Enfa Rose George, Eduardo Blanco, Steven Corman
+    conference_short: NAACL
+    conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2404.04770
+
+  - title: "Asking and Answering Questions to Extract Event-Argument Structures"
+    authors: <strong>Md Nayem Uddin</strong>, Enfa Rose George, Eduardo Blanco, Steven Corman
+    conference_short: LREC-COLING
+    conference: Joint International Conference on Computational Linguistics, Language Resources and Evaluation <strong>(LREC-COLING)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2404.16413
+
+  - title: "Interpreting Indirect Answers to Yes-No Questions in Multiple Languages"
+    authors: Zijie Wang, Md Mosharaf Hossain, Shivam Mathur, Terry Cruz Melo, Kadir Bulut Ozler, Keun Hee Park, Jacob Quintero, MohammadHossein Rezaei, Shreya Nupur Shakya, <strong>Md Nayem Uddin</strong>, Eduardo Blanco
+    conference_short: EMNLP-F
+    conference: "Findings of the Association for Computational Linguistics: EMNLP, 2023."
+    pdf: https://arxiv.org/abs/2310.13290

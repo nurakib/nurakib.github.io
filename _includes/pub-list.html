@@ -1,0 +1,18 @@
+{% assign pubs = include.source %}
+{% if include.limit %}{% assign pubs = pubs | slice: 0, include.limit %}{% endif %}
+<ul class="pub-list">
+{% for p in pubs %}
+  <li class="pub">
+    <div class="pub-title">{% if p.pdf %}<a href="{{ p.pdf }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+    <div class="pub-authors">{{ p.authors }}</div>
+    <div class="pub-venue"><em>{{ p.conference }}</em></div>
+    <div class="pub-links">
+      {% if p.conference_short %}<span class="tag">{{ p.conference_short }}</span>{% endif %}
+      {% if p.pdf %}<a class="btn-link" href="{{ p.pdf }}">PDF</a>{% endif %}
+      {% if p.code %}<a class="btn-link" href="{{ p.code }}">Code</a>{% endif %}
+      {% if p.page %}<a class="btn-link" href="{{ p.page }}">Project</a>{% endif %}
+      {% if p.notes %}<span class="note-review">{{ p.notes }}</span>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,25 @@
+# ─── Your photo gallery ─────────────────────────────────────────
+# To add a photo:
+#   1. Put the image file in  assets/img/photos/
+#   2. Add an entry below: title, category (birds|street), src (and optional full).
+# Entries with no `src` show a placeholder tile.
+
+- title: "Hummingbird at an aloe bloom"
+  category: birds
+  src: /assets/img/photos/bird-hummingbird-aloe.jpg
+
+- title: "Hummingbird in flight"
+  category: birds
+  src: /assets/img/photos/bird-hummingbird-flight.jpg
+
+- title: "Northern mockingbird"
+  category: birds
+  src: /assets/img/photos/bird-mockingbird.jpg
+
+- title: "Figure in bronze"
+  category: street
+  src: /assets/img/photos/street-bronze-figure.jpg
+
+- title: "City corner"
+  category: street
+  src: /assets/img/photos/street-city-corner.jpg

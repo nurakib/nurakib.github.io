@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+
+  <div class="lightbox" id="lightbox"><img src="" alt=""></div>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

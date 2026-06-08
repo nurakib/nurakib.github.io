@@ -1,0 +1,88 @@
+# One news item per entry, newest first.
+#   year:  used to group items on the /news/ page
+#   label: the date shown next to the item
+#   text:  the news (single item, headline style)
+
+- year: 2026
+  label: "May 2026"
+  text: 'Joining Microsoft (Redmond) as an Applied Scientist Intern, working on LLM agents for large-scale system monitoring and automated root-cause analysis.'
+
+- year: 2026
+  label: "Apr 2026"
+  text: '"From Recall to Forgetting" (the Memora benchmark) accepted to ACL 2026 (Findings).'
+
+- year: 2026
+  label: "Jan 2026"
+  text: '"GuidedSampling" accepted to ICLR 2026.'
+
+- year: 2026
+  label: "Jan 2026"
+  text: 'Joining Cohere (San Francisco) as an Intern of the Technical Staff.'
+
+- year: 2025
+  label: "Sep 2025"
+  text: '"ThinkTuning" accepted to EMNLP 2025.'
+
+- year: 2025
+  label: "Jun 2025"
+  text: 'Joining Genies (San Mateo) as a Research Scientist Intern.'
+
+- year: 2025
+  label: "May 2025"
+  text: '"UnSeenTimeQA" accepted to ACL 2025.'
+
+- year: 2025
+  label: "May 2025"
+  text: '"Insights into Alignment" accepted to the ACL 2025 Student Research Workshop.'
+
+- year: 2025
+  label: "Mar 2025"
+  text: 'Awarded the Tinker Research Grant from Thinking Machines Lab ($5,000).'
+
+- year: 2025
+  label: "Feb 2025"
+  text: 'Selected for the OpenAI Researcher Access Program ($1,000).'
+
+- year: 2025
+  label: "Jan 2025"
+  text: '"BEMEAE" accepted to NAACL 2025.'
+
+- year: 2025
+  label: "2025"
+  text: 'Awarded the ASU GSG Career Development Grant ($950).'
+
+- year: 2024
+  label: "May 2024"
+  text: '"Chaos with Keywords" accepted to ACL 2024 (Findings).'
+
+- year: 2024
+  label: "Mar 2024"
+  text: '"Generating Uncontextualized and Contextualized Questions" accepted to NAACL 2024.'
+
+- year: 2024
+  label: "Feb 2024"
+  text: '"Asking and Answering Questions to Extract Event-Argument Structures" accepted to LREC-COLING 2024.'
+
+- year: 2024
+  label: "2024"
+  text: 'Awarded the ASU SCAI Conference Grant ($500).'
+
+- year: 2024
+  label: "2024"
+  text: 'Awarded the ASU GPSA Career Development Grant ($950).'
+
+- year: 2024
+  label: "2024"
+  text: 'Awarded an ASU GPSA Travel Grant ($950).'
+
+- year: 2024
+  label: "2024"
+  text: 'Awarded an ASU Graduate College Travel Grant ($300).'
+
+- year: 2023
+  label: "Oct 2023"
+  text: '"Interpreting Indirect Answers to Yes-No Questions in Multiple Languages" accepted to Findings of EMNLP 2023.'
+
+- year: 2022
+  label: "Aug 2022"
+  text: 'Starting my Ph.D. in Computer Science at Arizona State University.'

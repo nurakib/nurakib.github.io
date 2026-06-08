@@ -1,0 +1,18 @@
+<ul class="exp-list">
+{% for job in site.data.experience %}
+  <li class="exp">
+    {% if job.logo %}
+    <img class="logo" src="{{ job.logo | relative_url }}" alt="{{ job.company }} logo">
+    {% else %}
+    <span class="logo logo-fallback">{{ job.company | slice: 0 }}</span>
+    {% endif %}
+    <div class="meta">
+      <div class="role"><span class="co">{% if job.url %}<a href="{{ job.url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</span> &middot; {{ job.role }}</div>
+      <div class="sub">{{ job.dates }}{% if job.location %} &middot; {{ job.location }}{% endif %}</div>
+      {% if job.points %}
+      <ul>{% for p in job.points %}<li>{{ p }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>

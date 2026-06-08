@@ -1,0 +1,43 @@
+# ─── Site identity ──────────────────────────────────────────────
+title: Md Nayem Uddin
+tagline: "PhD student at ASU."
+position: Ph.D. Student, Computer Science
+affiliation: Arizona State University
+email: muddin11@asu.edu
+description: >-
+  Md Nayem Uddin, Ph.D. student at Arizona State University, working on memory
+  for AI systems and long-horizon agents. Bird and street photography, and writing.
+
+# ─── Links (leave blank to hide) ────────────────────────────────
+google_scholar: https://scholar.google.com/citations?user=ecWRLkQAAAAJ&hl=en
+github_link:    https://github.com/nurakib
+linkedin:       https://www.linkedin.com/in/muddin11
+twitter:        https://x.com/nayemu11
+cv_link:        /assets/files/curriculum_vitae.pdf
+
+# ─── Build ──────────────────────────────────────────────────────
+# When deploying, set url to https://nurakib.github.io
+url:        "https://nurakib.github.io"
+baseurl:    ""
+markdown:   kramdown
+permalink:  /writing/:title/
+timezone:   America/Phoenix
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - vendor/
+  - .bundle/
+  - photos_to_be_added/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_de.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - LICENSE
+  - html_source_file/
+  - minimal-light.gemspec

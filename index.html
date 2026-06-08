@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<div class="container">
+
+  <section class="hero">
+    <img class="portrait" src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Md Nayem Uddin">
+    <h1 class="name"><span>Md Nayem Uddin</span></h1>
+    <p class="tagline">{{ site.tagline }}</p>
+    <div class="hero-links">
+      <a href="mailto:{{ site.email }}">Email</a>
+      {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar</a>{% endif %}
+      {% if site.github_link %}<a href="{{ site.github_link }}">GitHub</a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.twitter %}<a href="{{ site.twitter }}">X</a>{% endif %}
+      {% if site.cv_link %}<a href="{{ site.cv_link | relative_url }}">Resume</a>{% endif %}
+    </div>
+
+    <p class="lead">I work on long-term memory for language models and on agents that can
+    carry out long, multi-step tasks.</p>
+
+    <p>I'm a Ph.D. student in Computer Science at
+    <a href="https://www.asu.edu/">Arizona State University</a>, where my research is in
+    natural language processing. Right now I focus on long-term memory and long-horizon
+    agents: how a model decides what to keep in memory and what to let go of, and how to
+    build tool-using agents that stay reliable and follow their instructions across a long
+    sequence of steps, rather than a single answer.</p>
+
+    <p>This builds on my earlier work on reasoning over time and understanding events:
+    extracting structured information about events from text, and testing whether language
+    models can really reason about dates, durations, and the order things happen in, rather
+    than repeating what they saw during training.</p>
+
+    <p>I'm looking for full-time Research Scientist and Applied Scientist roles, and will
+    graduate in 2027. If this is the kind of problem you care about, I'd be glad to
+    <a href="mailto:{{ site.email }}">talk</a>.</p>
+
+    <p>When I'm not working I'm usually out with a camera, mostly photographing
+    <a href="{{ '/photography/' | relative_url }}">birds</a>. I post the occasional
+    <a href="{{ '/writing/' | relative_url }}">note</a> here too.</p>
+  </section>
+
+  <section>
+    <h2>Selected Publications</h2>
+    {% include pub-list.html source=site.data.publications.main limit=4 %}
+    <p class="more"><a href="{{ '/research/' | relative_url }}">All publications &amp; research →</a></p>
+  </section>
+
+  <div class="teasers">
+    <section>
+      <h2>Latest Writing</h2>
+      <ul class="post-list">
+        {% for post in site.posts limit:3 %}
+        <li class="post-item">
+          <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a class="ptitle" href="{{ post.url | relative_url }}" style="font-size:1.05rem;">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="more"><a href="{{ '/writing/' | relative_url }}">All writing →</a></p>
+    </section>
+
+    <section>
+      <h2>Recent Photographs</h2>
+      <div class="teaser-strip">
+        {% for photo in site.data.photos limit:3 %}
+          {% if photo.src %}
+          <span class="shot" data-full="{{ photo.full | default: photo.src | relative_url }}"><img src="{{ photo.src | relative_url }}" alt="{{ photo.title }}"></span>
+          {% else %}
+          <span class="shot placeholder">{{ photo.title }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="more"><a href="{{ '/photography/' | relative_url }}">View gallery →</a></p>
+    </section>
+  </div>
+
+</div>
